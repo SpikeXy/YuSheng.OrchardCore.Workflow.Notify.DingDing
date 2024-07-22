@@ -6,7 +6,7 @@ using YuSheng.OrchardCore.Workflow.Notify.DingDing.Drivers;
 
 namespace YuSheng.OrchardCore.Workflow.Notify.DingDing
 {
-    [Feature("OrchardCore.Workflows")]
+    [Feature("YuSheng.OrchardCore.Workflow.Notify.DingDing")]
     public class Startup : StartupBase
     {
         public override void ConfigureServices(IServiceCollection services)
